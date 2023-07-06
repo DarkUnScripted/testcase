@@ -1,0 +1,32 @@
+.bar {
+    border-radius: 0.5rem;
+    height: 1rem;
+    width: 15rem;
+    background-color: white;
+    display: flex;
+    position: relative;
+    top: -0.5rem;
+    margin-left: 1rem;
+}
+
+.filled {
+    background-color: #3399ff;
+    height: 1rem;
+    border-radius: 0.5rem;
+    z-index: 1;
+    position: absolute;
+}
+
+.progressIndicator {
+    background-color: #3399ff;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 1.75rem;
+    top: -0.75rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    z-index: 2;
+}

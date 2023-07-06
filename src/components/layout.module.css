@@ -1,0 +1,19 @@
+.navBar {
+    height: 9.5rem;
+    background-color: #F4F4F4;
+    padding-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    padding: 0 10.3rem;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 1300px) {
+    .poweredBy {
+        width: 150px;
+    }
+
+    .navBar {
+        padding: 0 3rem;
+    }
+}

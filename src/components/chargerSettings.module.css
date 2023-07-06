@@ -1,0 +1,50 @@
+.chargerImage {
+    height: 20rem;
+}
+
+.container {
+    display: flex;
+}
+
+.setting {
+    color: #617d8a;
+    font-size: 1rem;
+}
+
+.settings div {
+    margin-top: 0.625rem;
+}
+
+.settings {
+    margin-left: 3rem;
+}
+
+.priceDiv {
+    color: #3399ff;
+    margin-top: 2rem;
+}
+
+.priceDiv p {
+    margin: 0;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+@media only screen and (max-width: 1300px) {
+    .container div {
+        font-size: 0.8rem;
+    }
+
+    .container {
+        margin-top: 2.5rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .settings {
+        margin-left: 1.5rem;
+    }
+}

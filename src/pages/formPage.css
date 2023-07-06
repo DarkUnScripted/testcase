@@ -1,0 +1,74 @@
+.chargerForm {
+    background-color: #E5F2FF;
+    border-radius: 10px;
+    padding-bottom: 4rem;
+    padding-left: 2.5rem;
+    padding: 0 2.5rem 2.5rem 2.5rem;
+}
+
+.container {
+    padding: 3rem 10.3rem 6.3rem 10.3rem;
+}
+
+.prevButton {
+    border-radius: 8px;
+    background-color: white;
+    border: solid 2px #3399ff;
+    width: 7.625rem;
+    height: 2.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3399ff;
+    top: -1.375rem;
+    position: relative;
+    margin-left: 2.5rem;
+    font-weight: bold;
+}
+
+.nextButton {
+    border-radius: 8px;
+    background-color: #3399ff;
+    color: white;
+    border: solid 2px #3399ff;
+    width: 7.625rem;
+    height: 2.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-weight: bold;
+    margin-right: 2.5rem;
+    top: -1.375rem;
+}
+
+.left {
+    margin-right: 7px;
+}
+
+.right {
+    margin-left: 7px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 800px) {
+    .container {
+        padding: 1.25rem 2rem 1rem 2rem;
+    }
+
+    .chargerForm {
+        padding: 0 1.5rem 2.5rem 1.5rem;
+    }
+
+    .prevButton {
+        margin-left: 1rem;
+    }
+
+    .nextButton {
+        margin-right: 1rem;
+    }
+}
